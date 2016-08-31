@@ -1,0 +1,26 @@
+1. 29
+2. LAMEbus
+3. sp10 sets interrupt priority level (IPL) to 0, enabling all interrupts.
+   splhigh sets IPL to highest value, disabling all interrupts.
+4. using typedef makes the type implementation defined. This allows for portability.
+5. splx returns oldspl, the old interrupt state.
+6. 15
+7. If option "SYNCH_PROBS" is defined, hardclock interrupts are generated at 10000 a second. Otherwise, they are generated at 100 a second.
+8. 
+9. 32 characters
+10. 15
+11. fs_sync, fs_getvolname, fs_getroot, fs_unmount
+12. thread_sleep() function in thread.h
+13. a pid is int32_t
+14. 
+15. 1024 characters
+16. 0
+17. os161/kern/include/kern/unistd.h
+18. yes, because there are no dependencies either way.
+19. A zombie is a dead thread waiting to be disposed. 
+20. 32
+21. device:var where var is a name given by the vfs layer.
+22. varraw where var is the name of the device, with "raw" appended to it.
+23. vn_countlock
+24. block and character devices.
+
