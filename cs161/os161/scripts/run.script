@@ -1,0 +1,48 @@
+Script started on Wed 31 Aug 2016 12:14:18 PM CDT
+]0;root@localhost:~/cs161[?1034h[root@localhost cs161]# cd root
+]0;root@localhost:~/cs161/root[root@localhost root]# ls
+[0m[01;34mbin[0m              [01;34minclude[0m       [01;32mstat161-1.14.old[0m    [01;34mtestbin[0m
+[01;34mhostbin[0m          [01;36mkernel[0m        [01;36mstat161.old[0m         [01;36mtrace161[0m
+[01;34mhostinclude[0m      [01;32mkernel-ASST0[0m  [01;36msys161[0m              [01;32mtrace161-1.14[0m
+[01;34mhostlib[0m          [01;34mlib[0m           [01;32msys161-1.14[0m         [01;32mtrace161-1.14.old[0m
+[01;36mhub161[0m           [01;34mman[0m           [01;32msys161-1.14.old[0m     [01;36mtrace161.old[0m
+[01;32mhub161-1.14[0m      [01;34msbin[0m          sys161.conf
+[01;32mhub161-1.14.old[0m  [01;36mstat161[0m       sys161.conf.sample
+[01;36mhub161.old[0m       [01;32mstat161-1.14[0m  [01;36msys161.old[0m
+[m]0;root@localhost:~/cs161/root[root@localhost root]# ./ [Ksys161 kernel
+sys161: System/161 release 1.14, compiled Aug 29 2016 12:55:53
+
+OS/161 base system version 1.10
+Copyright (c) 2000, 2001, 2002, 2003
+   President and Fellows of Harvard College.  All rights reserved.
+
+Put-your-group-name-here's system version 0 (ASST0 #2)
+
+Cpu is MIPS r2000/r3000
+1872k physical memory available
+Device probe...
+lamebus0 (system main bus)
+emu0 at lamebus0
+ltrace0 at lamebus0
+ltimer0 at lamebus0
+hardclock on ltimer0 (100 hz)
+beep0 at ltimer0
+rtclock0 at ltimer0
+lrandom0 at lamebus0
+random0 at lrandom0
+lser0 at lamebus0
+con0 at lser0
+pseudorand0 (virtual)
+
+OS/161 kernel [? for menu]: p /sbin/poweroff <return>
+Operation took 0.000162800 seconds
+OS/161 kernel [? for menu]: Shutting down.
+The system is halted.
+sys161: 230087766 cycles (3781661k, 19u, 226306086i)
+sys161: 1565 irqs 6 exns 0r/0w disk 26r/667w console 8r/0w/3m emufs 0r/0w net
+sys161: Elapsed real time: 9.196798 seconds (25.0182 mhz)
+sys161: Elapsed virtual time: 9.203510640 seconds (25 mhz)
+]0;root@localhost:~/cs161/root[root@localhost root]# exit
+exit
+
+Script done on Wed 31 Aug 2016 12:14:51 PM CDT
