@@ -11,7 +11,7 @@
     3. con_io
     4. con_ioctl
     5. attach_console_to_vfs
-    6. PART !
+    6. NOTE: the above functions are implementations of the below functions
     7. the device struct has functions include/dev.h
         1. d_open
         2. d_close
