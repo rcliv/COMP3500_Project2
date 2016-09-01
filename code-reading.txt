@@ -1,4 +1,4 @@
-1. sp 16 bit? 
+1. 29
 2. the LAMEbus
 3. splhigh sets spl to the highest value, disabling all interrupts. spl0 sets spl to 0, enabling all interupts
 4. because we are using 32 bit unsigned integers not just 32 bit signed integers
@@ -19,7 +19,7 @@
         4. d_ioctl
         5. this is the struct that a device has to be a part of
 9. 32 kern/include/kern/sfs.h
-10. 512 kern/include/kern/sfs.h
+10. 15 kern/include/kern/sfs.h
 11. kern/include/fs.h
     1. fs_sync
     2. fs_getvolname
